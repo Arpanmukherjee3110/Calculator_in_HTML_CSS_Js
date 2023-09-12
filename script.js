@@ -43,7 +43,8 @@ document.getElementById("equal").addEventListener("click",function(){
         string=document.getElementById("txt").value;
         }
         catch(SyntaxError){
-                document.getElementById("txt").value="Error";
+                document.getElementById("txt").value="Error"
+                string="";
         }
 });
 
