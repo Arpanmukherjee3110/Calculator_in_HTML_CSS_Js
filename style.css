@@ -156,6 +156,9 @@ body{
 .backf:hover{
     box-shadow:#a4a4bd 0vh 0vh 3vh;
 }
+.backf:active{
+    scale:0.9;
+}
 .backl{
     background-color: aliceblue;
 }
@@ -165,6 +168,12 @@ body{
 .backl:hover{
     box-shadow:aliceblue 0vh 0vh 3vh;
 }
+.backl:active{
+    scale:0.9;
+}
 .backr:hover{
     box-shadow:rgb(162, 237, 212) 0vh 0vh 3vh;
+}
+.backr:active{
+    scale:0.9;
 }
