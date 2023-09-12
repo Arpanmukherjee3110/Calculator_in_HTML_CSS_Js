@@ -37,9 +37,14 @@ Array.from(button).forEach(function(items){
 
 // EQUAL TO BUTTON
 document.getElementById("equal").addEventListener("click",function(){
+        try{
         final=eval(string);
         document.getElementById("txt").value=final;
         string=document.getElementById("txt").value;
+        }
+        catch(SyntaxError){
+                document.getElementById("txt").value="Error";
+        }
 });
 
 // C BUTTON
